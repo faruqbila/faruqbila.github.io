@@ -1,8 +1,5 @@
-@import url('../../../../../../../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700&amp;display=swap');
- /* ---------------------------------------------
-    DEFAULT
--------------------------------------------------*/
 @font-face {
   font-family: "Flaticon";
   src: url("https://ngulemind.site/assets/themes/arabian/themes-rsvp/sw-vendor-v2/font/Flaticon.eot");
@@ -11,7 +8,6 @@
        url("https://ngulemind.site/assets/themes/arabian/themes-rsvp/sw-vendor-v2/font/Flaticon.woff") format("woff"),
        url("https://ngulemind.site/assets/themes/arabian/themes-rsvp/sw-vendor-v2/font/Flaticon.ttf") format("truetype"),
        url("https://ngulemind.site/assets/themes/arabian/themes-rsvp/sw-vendor-v2/font/Flaticon.svg#Flaticon") format("svg");
-
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -320,8 +316,8 @@ html {
     CUSTOM TEMPLATE
 =======================================================*/
     .sw-invitation-wrapper{
-        background:url('img/sw-element-6.jpg') top center no-repeat,
-        url('img/sw-element-5.jpg') bottom center no-repeat,
+        background:url('./image/sw-element-6.webp') top center no-repeat,
+        url('./image/sw-element-5.webp') bottom center no-repeat,
         rgba(89, 61, 66);
         background-size:20%;
         background-repeat: no-repeat;
@@ -329,7 +325,7 @@ html {
 
 
     .sw-invitation-home{
-        background:url(img/sw-wedding-invitation.png) no-repeat center center;
+        background:url(./image/sw-wedding-invitation.webp) no-repeat center center;
         background-size:100%;
         width:600px;
         height: 400px;
@@ -377,7 +373,7 @@ html {
     MEMPELAI
 -------------------------------------*/
 .sw-mempelai-warpper {
-    background:url(img/sw-cover-mempelai.jpg) repeat;
+    background:url(./image/sw-cover-mempelai.webp) repeat;
     position: relative;
     text-align: center;
 }
@@ -447,10 +443,10 @@ p.sw-binti {
     AKAD RESEPSI
 ------------------------------------*/
 .sw-akad-resepsi-rapper{
-   background: url(img/sw-element-1.jpg) top left no-repeat,
-    url(img/sw-element-2.jpg) top right no-repeat,
-    url(img/sw-element-3.jpg) bottom right no-repeat,
-    url(img/sw-element-4.jpg) bottom left no-repeat,rgba(89, 61, 66);
+   background: url(./image/sw-element-1.webp) top left no-repeat,
+    url(./image/sw-element-2.webp) top right no-repeat,
+    url(./image/sw-element-3.webp) bottom right no-repeat,
+    url(./image/sw-element-4.webp) bottom left no-repeat,rgba(89, 61, 66);
     background-repeat: no-repeat;
     background-size:15%;
     position: relative;
@@ -477,7 +473,7 @@ p.sw-binti {
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
-    background:url('img/sw-line.png') center 110px no-repeat;
+    background:url('./image/sw-line.webp') center 110px no-repeat;
     transition: all 0.4s ease-in-out;
 }
 
@@ -650,8 +646,8 @@ p.sw-binti {
     BUKU TAMU FORM
 --------------------------------------*/
 .sw-form-wrapper{
-    background:url('img/sw-element-1.jpg') top left no-repeat,
-    url('img/sw-element-3.jpg') bottom right no-repeat,
+    background:url('./image/sw-element-1.webp') top left no-repeat,
+    url('./image/sw-element-3.webp') bottom right no-repeat,
     rgba(89, 61, 66);
     background-repeat: no-repeat;
     background-size:15%;
@@ -988,7 +984,7 @@ body fieldset label {
     }
 
     .sw-akad-resepsi {
-        background: url(img/sw-line.png) center 90px no-repeat;
+        background: url(./image/sw-line.webp) center 90px no-repeat;
         padding:40px 10px 20px 10px;
         margin:70px 0px 10px;
     }
@@ -1183,7 +1179,7 @@ body fieldset label {
     .sw-akad-resepsi {
         padding:10px 10px 20px 10px;
         margin:10px 0px 10px;
-        background: url(img/sw-line.png) center 40px no-repeat;
+        background: url(./image/sw-line.webp) center 40px no-repeat;
         background-size:35%;
         transition: all 0.4s ease-in-out;
     }
